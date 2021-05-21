@@ -1,1 +1,23 @@
-
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.exercise-desc {
+    margin-bottom: 25px;
+}
+#exercise-title {
+    text-align: center;
+}
+.button-cont {
+    text-align: center;
+    margin-top: 25px;
+}
